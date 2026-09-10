@@ -1,6 +1,6 @@
 COVID-19 Global Data Exploration Using SQL
 
-An exploratory data analysis (EDA) of global COVID-19 mortality and vaccination metrics using Microsoft SQL Server (T-SQL). This project transforms raw pandemic tracking data into actionable insights covering infection spread, death rates, and rolling vaccination rollouts.
+An exploratory data analysis (EDA) of global COVID-19 mortality and vaccination metrics using SQL. This project transforms raw pandemic tracking data into actionable insights covering infection spread, death rates, and rolling vaccination rollouts.
 
 ---
 
