@@ -29,7 +29,6 @@ SQL Techniques Applied
 3. Data Type Conversion: `CAST()`
 4. Multi-Table Operations: `INNER JOIN` on composite keys (`location` and `date`)
 5. Window Functions: Cumulative rolling sum using `SUM(...) OVER (PARTITION BY ... ORDER BY ...)`
-6. Advanced Structuring:
-  1. Common Table Expressions (CTEs): `WITH population_vs_vaccinations AS (...)`
-  2. Temporary Tables: `#PercentPeopleVaccinated`
-  3. Database Views: `CREATE VIEW PercentPeopleVaccinated AS (...)`
+6. Common Table Expressions (CTEs): `WITH population_vs_vaccinations AS (...)`
+7. Temporary Tables: `#PercentPeopleVaccinated`
+8. Database Views: `CREATE VIEW PercentPeopleVaccinated AS (...)`
