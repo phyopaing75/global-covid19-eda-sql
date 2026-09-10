@@ -36,8 +36,8 @@ Data Type Conversion: `CAST()`
 Multi-Table Operations: `INNER JOIN` on composite keys (`location` and `date`)
 Window Functions: Cumulative rolling sum using `SUM(...) OVER (PARTITION BY ... ORDER BY ...)`
 Advanced Structuring:
-  Common Table Expressions (CTEs):** `WITH population_vs_vaccinations AS (...)`
-  Temporary Tables:** `#PercentPeopleVaccinated`
-  Database Views:** `CREATE VIEW PercentPeopleVaccinated AS (...)`
+  Common Table Expressions (CTEs): `WITH population_vs_vaccinations AS (...)`
+  Temporary Tables: `#PercentPeopleVaccinated`
+  Database Views: `CREATE VIEW PercentPeopleVaccinated AS (...)`
 
 ---
