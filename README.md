@@ -9,11 +9,11 @@ Project Overview
 This project analyzes the impact of the COVID-19 pandemic across countries and continents by querying and joining historical death and vaccination datasets.
 
 Core Objectives
-* Measure mortality rates relative to total confirmed cases globally and at country level (e.g., Myanmar).
-* Identify countries with the highest infection rates per capita.
-* Calculate cumulative death tolls across continents and countries.
-* Track rolling daily vaccination numbers and measure population vaccination percentages over time using SQL window functions.
-* Build reusable SQL structures (CTEs, Temp Tables, and Views) suitable for downstream visualization tools like Tableau or Power BI.
+Measure mortality rates relative to total confirmed cases globally and at country level (e.g., Myanmar).
+Identify countries with the highest infection rates per capita.
+Calculate cumulative death tolls across continents and countries.
+Track rolling daily vaccination numbers and measure population vaccination percentages over time using SQL window functions.
+Build reusable SQL structures (CTEs, Temp Tables, and Views) suitable for downstream visualization tools like Tableau or Power BI.
 
 ---
 
