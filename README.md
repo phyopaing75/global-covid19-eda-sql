@@ -1,17 +1,19 @@
-Project Overview
+## Project Overview
 
 This project analyzes the impact of the COVID-19 pandemic across countries and continents by querying and joining historical death and vaccination datasets.
 
-Core Objectives
-1. Measure mortality rates relative to total confirmed cases globally and at country level (e.g., Myanmar).
-2. Identify countries with the highest infection rates per capita.
-3. Calculate cumulative death tolls across continents and countries.
-4. Track rolling daily vaccination numbers and measure population vaccination percentages over time using SQL window functions.
-5. Build reusable SQL structures (CTEs, Temp Tables, and Views) suitable for downstream visualization tools like Tableau or Power BI.
+---
+
+## Core Objectives
+* Measure mortality rates relative to total confirmed cases globally and at country level (e.g., Myanmar).
+* Identify countries with the highest infection rates per capita.
+* Calculate cumulative death tolls across continents and countries.
+* Track rolling daily vaccination numbers and measure population vaccination percentages over time using SQL window functions.
+* Build reusable SQL structures (CTEs, Temp Tables, and Views) suitable for downstream visualization tools like Tableau or Power BI.
 
 ---
 
-Datasets
+## Datasets
 
 The analysis is based on two datasets sourced and staged into the `PortfolioProject` database:
 
@@ -22,13 +24,13 @@ The analysis is based on two datasets sourced and staged into the `PortfolioProj
 
 ---
 
-SQL Techniques Applied
+## SQL Techniques Applied
 
-1. Data Filtering & Sorting: `WHERE continent IS NOT NULL`, `ORDER BY`, `LIKE`
-2. Data Aggregations: `SUM()`, `MAX()`, `GROUP BY`
-3. Data Type Conversion: `CAST()`
-4. Multi-Table Operations: `INNER JOIN` on composite keys (`location` and `date`)
-5. Window Functions: Cumulative rolling sum using `SUM(...) OVER (PARTITION BY ... ORDER BY ...)`
-6. Common Table Expressions (CTEs): `WITH population_vs_vaccinations AS (...)`
-7. Temporary Tables: `#PercentPeopleVaccinated`
-8. Database Views: `CREATE VIEW PercentPeopleVaccinated AS (...)`
+* Data Filtering & Sorting: `WHERE continent IS NOT NULL`, `ORDER BY`, `LIKE`
+* Data Aggregations: `SUM()`, `MAX()`, `GROUP BY`
+* Data Type Conversion: `CAST()`
+* Multi-Table Operations: `INNER JOIN` on composite keys (`location` and `date`)
+* Window Functions: Cumulative rolling sum using `SUM(...) OVER (PARTITION BY ... ORDER BY ...)`
+* Common Table Expressions (CTEs): `WITH population_vs_vaccinations AS (...)`
+* Temporary Tables: `#PercentPeopleVaccinated`
+* Database Views: `CREATE VIEW PercentPeopleVaccinated AS (...)`
